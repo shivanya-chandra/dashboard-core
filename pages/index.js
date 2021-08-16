@@ -3,9 +3,9 @@
 import LeftElements from "../components/leftElem";
 
 export default function Home() {
-  return (
-    <div>
-      <LeftElements/>
-    </div>
-  );
+	return (
+		<div>
+			<LeftElements />
+		</div>
+	);
 }
