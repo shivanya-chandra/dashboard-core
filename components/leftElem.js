@@ -3,7 +3,7 @@ import BottomElements from "./bottomElem";
 
 export default function LeftElements() {
 	return (
-		<div className="main-div">
+		<div>
 			<div className="leftElements">
 				<span className="leftElements__time">4:20pm</span>
 				<span className="leftElements__auto">Auto</span>
@@ -21,9 +21,7 @@ export default function LeftElements() {
 					Head south west <br /> ETA: 29.78
 				</span>
 			</div>
-			<BottomElements/>
 			<div className="icons">
-				<IconElem />
 			</div>
 		</div>
 	);

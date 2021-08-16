@@ -1,85 +1,83 @@
-
 .leftElements {
-	height: 100%;
-	width: 20%;
-	color: #fff;
-	display: flex;
-	flex-direction: column;
+  height: 100%;
+  /* width: 20%; */
+  color: #fff;
+  display: flex;
+  flex-direction: column;
 }
 
 .leftElements__time {
-	margin: 20px;
-	margin-bottom: -3px;
-	margin-top: 30px;
-	height: 40px;
-	font-weight: 800;
-	font-size: 19px;
+  margin: 20px;
+  margin-bottom: -3px;
+  margin-top: 30px;
+  height: 40px;
+  font-size: 19px;
 }
 
 .leftElements__auto {
-	margin-left: 30px;
-	margin-bottom: 10px;
+  margin-left: 30px;
+  margin-bottom: 10px;
 }
 
 .box {
-	background-color: rgba(255, 255, 255, 0.055);
-	height: 80px;
-	border-radius: 5px;
-	margin: 10px;
-	padding-top: 30px;
-	font-weight: 800;
-	text-align: center;
+  background-color: #1b1d36;
+  height: 80px;
+  border-radius: 5px;
+  margin: 10px;
+  padding-top: 30px;
+  text-align: center;
 }
 
 .map {
-	margin: 10px;
-	margin-bottom: -10px;
-	height: 240px;
-	border-top-right-radius: 5px;
-	border-top-left-radius: 5px;
+  margin: 10px;
+  margin-bottom: -10px;
+  height: 320px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
 
 .box-2 {
-	background-color: rgba(255, 255, 255, 0.055);
-  height: 240px;
-	/* border-radius: 5px; */
-	margin: 9.8px;
-	border-bottom-left-radius: 5px;
-	border-bottom-right-radius: 5px;
-	padding-top: 30px;
-	text-align: center;
-	font-weight: 800;
+  background-color: #1b1d36;
+  height: 200px;
+  /* border-radius: 5px; */
+  margin: 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding-top: 30px;
+  text-align: center
 }
 
 .main-div {
-	display: flex;
-	width: 100%;
+  display: flex;
+  width: 100%;
 }
 
 .icon-main {
-	display: flex;
-	/* justify-content: flex-end; */
-	margin-top: 200px;
-	color: #fff;
-	flex-direction: column;
+  display: flex;
+  /* justify-content: flex-end; */
+  /* margin-top: 200px; */
+  margin-bottom: 48px;
+  color: #fff;
+  flex-direction: column;
+	margin-left: -64px;
 }
 
 .icon {
-	color: #fff;
-	background-color: rgba(255, 255, 255, 0.055);
-	margin: 10px;
-	/* font-size: 20px; */
-	padding: 10px;
-	border-radius: 5px;
+  color: #fff;
+  background-color: #1b1d36;
+  margin: 10px;
+  /* font-size: 20px; */
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .icon img {
-	height: 35px;
-	color: #fff;
+  height: 35px;
+  color: #fff;
 }
 
 .icons {
-	display: flex;
-	width: 100%;
-	justify-content: flex-end;
+  display: flex;
+  /* width: 100%; */
+  justify-content: flex-end;
 }
