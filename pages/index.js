@@ -7,6 +7,7 @@ import LeftElements from '../components/leftElem';
 export default function Home() {
   return (
     <div className="Container">
+      <img src="/car.png" alt="car" className="car" />
       <LeftElements />
       <BottomElements />
       <IconElem />

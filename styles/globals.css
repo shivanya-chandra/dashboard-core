@@ -13,6 +13,14 @@
   align-items: flex-end;
 }
 
+.car {
+  position: absolute;
+  top: 24vh;
+  left: 36vw;
+  rotate: 5deg;
+  height: 40vh;
+}
+
 .icon-main {
   display: flex;
   /* justify-content: flex-end; */

@@ -47,8 +47,10 @@
   margin: 10px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  padding-top: 30px;
-  text-align: center
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .main-div {
