@@ -3,18 +3,18 @@ import home from "../public/home.svg";
 export default function IconElem() {
 	return (
 		<div className="icon-main">
-			<span className="icon__home icon">
+			<a href="/" className="icon__home icon">
 				<img src="./home.svg" alt="" />
-			</span>
-			<span className="icon__settings icon">
+			</a>
+			<a className="icon__settings icon">
 				<img src="./settings.svg" alt="" />
-			</span>
-			<span className="icon__maps icon">
+			</a>
+			<a href="/map" className="icon__maps icon">
 				<img src="./map.svg" alt="" />
-			</span>
-			<span className="icon__burger icon">
+			</a>
+			<a className="icon__burger icon">
 				<img src="./menu.svg" alt="" />
-			</span>
+			</a>
 		</div>
 	);
 }

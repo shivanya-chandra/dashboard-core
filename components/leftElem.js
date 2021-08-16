@@ -5,9 +5,9 @@ export default function LeftElements() {
 	return (
 		<div>
 			<div className="leftElements">
-				<span className="leftElements__time">4:20pm</span>
+				<span className="leftElements__time">4:00pm</span>
 				<span className="leftElements__auto">Auto</span>
-				<span className="leftElements__battery box">69% Battery</span>
+				<span className="leftElements__battery box">60% Battery</span>
 				<span className="leftElements__speed box">100km/hr</span>
 				<iframe
 					className="map"

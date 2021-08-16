@@ -1,0 +1,68 @@
+.mapPage {
+  display: flex;
+  flex-direction: row;
+  width: 68vw;
+  margin-left: 16vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.mapPage__locationBox {
+  height: 20vh;
+  border-radius: 10px;
+  background-color: #1b1d36;
+  margin-bottom: 10px;
+  position: absolute;
+  top: 2vh;
+  left: 17vw;
+  width: 30vw;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  padding-left: 4vw;
+  font-size: 24px;
+}
+
+.mapPage__street {
+  font-size: 18px;
+}
+
+.mapPage__music {
+  height: 15vh;
+  border-radius: 10px;
+  background-color: #1b1d36;
+  margin-bottom: 10px;
+  position: absolute;
+  bottom: 2vh;
+  left: 17vw;
+  width: 17vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  text-align: center;
+}
+
+.mapPage__ac {
+  height: 15vh;
+  border-radius: 10px;
+  background-color: #1b1d36;
+  margin-bottom: 10px;
+  position: absolute;
+  bottom: 2vh;
+  left: 35vw;
+  width: 12vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  text-align: center;
+}
+
+.mapPage__embed {
+  height: 100vh;
+  /* width: 70vw; */
+  /* display: none; */
+  border-radius: 10px;
+}
