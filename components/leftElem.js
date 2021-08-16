@@ -1,4 +1,5 @@
 import IconElem from "../components/iconElem";
+import BottomElements from "./bottomElem";
 
 export default function LeftElements() {
 	return (
@@ -20,6 +21,7 @@ export default function LeftElements() {
 					Head south west <br /> ETA: 29.78
 				</span>
 			</div>
+			<BottomElements/>
 			<div className="icons">
 				<IconElem />
 			</div>

@@ -7,7 +7,6 @@ export default function Home() {
   return (
     <div className="Container">
       <LeftElements/>
-      <BottomElements/>
     </div>
   );
 }
