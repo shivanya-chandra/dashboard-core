@@ -40,7 +40,7 @@
 
 .box-2 {
 	background-color: rgba(255, 255, 255, 0.055);
-	height: 110px;
+  height: 240px;
 	/* border-radius: 5px; */
 	margin: 9.8px;
 	border-bottom-left-radius: 5px;
@@ -48,4 +48,37 @@
 	padding-top: 30px;
 	text-align: center;
 	font-weight: 800;
+}
+
+.main-div {
+	display: flex;
+	width: 100%;
+}
+
+.icon-main {
+	display: flex;
+	/* justify-content: flex-end; */
+	margin-top: 200px;
+	color: #fff;
+	flex-direction: column;
+}
+
+.icon {
+	color: #fff;
+	background-color: rgba(255, 255, 255, 0.055);
+	margin: 10px;
+	/* font-size: 20px; */
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.icon img {
+	height: 35px;
+	color: #fff;
+}
+
+.icons {
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
 }

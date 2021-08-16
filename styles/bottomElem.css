@@ -1,0 +1,26 @@
+.bottomElem {
+  display: flex;
+  flex-direction: row;
+  width: 50vw;
+  height: 240px;
+  align-items: flex-end;
+  align-self: flex-end;
+}
+
+.bottomElem__music {
+  width: 64%;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.bottomElem__ac {
+  width: 36%;
+}
+
+.bottom__box {
+  height: 240px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #1B1D36;
+  margin-bottom: 10px;
+}
